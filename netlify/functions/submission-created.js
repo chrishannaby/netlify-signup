@@ -21,9 +21,7 @@ exports.handler = async function (event) {
   const data = await response.json();
   console.log(data);
   return {
-    statusCode: 301,
-    headers: {
-      Location: "/success",
-    },
+    statusCode: 200,
+    body: `Invite sent to ${email}`,
   };
 };
