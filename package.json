@@ -9,6 +9,9 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "astro": "^0.20.9"
+    "@tailwindcss/forms": "^0.3.4",
+    "astro": "^0.20.9",
+    "node-fetch": "^2.6.5",
+    "tailwindcss": "^2.2.16"
   }
 }
